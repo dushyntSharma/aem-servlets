@@ -22,7 +22,7 @@ import com.aem.mind.core.dao.Impl.ServletDaoImpl;
 import com.aem.mind.core.models.JDBCData;
 
 @Component(service = Servlet.class)
-@SlingServletPaths(value = { "/bin/aemRegisterPages" })
+@SlingServletPaths(value = { "/bin/aemRegisterPagesTwo" })
 public class RegisterPage extends SlingAllMethodsServlet {
 
 	/**

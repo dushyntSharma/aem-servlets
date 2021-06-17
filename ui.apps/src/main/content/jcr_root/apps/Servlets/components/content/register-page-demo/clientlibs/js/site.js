@@ -4,7 +4,7 @@ function formData() {
 	var gender = $("#gender").val();
 
 	console.log(firstname);
-	console.log(lastname);
+	console.log(address);
 	console.log(gender);
 
 	var fmdata = {
@@ -15,7 +15,7 @@ function formData() {
 	console.log(fmdata);
 	$.ajax({
 		type: "POST",
-		url: "/bin/aemRegisterPages",
+		url: "/bin/aemRegisterPagesTwo",
 		data: {
 			"data": JSON.stringify(fmdata)
 		},
